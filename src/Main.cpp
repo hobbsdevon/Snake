@@ -1,4 +1,4 @@
-//g++ src/Main.cpp -o main.exe -Iinclude -Llib -lSDL3
+//g++ src/main.cpp -o main.exe -Iinclude -Llib -lSDL3
 #include <SDL3/SDL.h>
 #include "Brick.h"
 #include "Paddle.h"
