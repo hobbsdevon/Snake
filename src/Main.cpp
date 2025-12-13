@@ -1,8 +1,8 @@
 //g++ src/main.cpp -o main.exe -Iinclude -Llib -lSDL3
 #include <SDL3/SDL.h>
-#include "Brick.h"
-#include "Paddle.h"
-#include "Ball.h"
+#include "Food.h"
+#include "Stage.h"
+#include "Snake.h"
 
 int main(){
     SDL_Init(SDL_INIT_VIDEO);
