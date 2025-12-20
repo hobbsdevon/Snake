@@ -4,7 +4,10 @@
 
 class Snake {
 public:
-
+    float x, y;
+    char direction;
+    Snake(SDL_Renderer* renderer, SDL_Window* window);
+    
 
 private:
 

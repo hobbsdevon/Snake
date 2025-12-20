@@ -4,8 +4,7 @@
 
 class Stage {
 public:
-    void generateStage();
-
+    Stage(SDL_Renderer* renderer, SDL_Window* window);
 private:
 
 

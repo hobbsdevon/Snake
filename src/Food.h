@@ -4,6 +4,9 @@
 
 class Food {
 public:
+    Food();
+
+    void draw(SDL_Renderer* renderer);
 
 
 private:
