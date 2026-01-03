@@ -4,14 +4,17 @@
 
 class Snake {
 public:
-    float x, y;
-    char direction;
-    Snake(SDL_Renderer* renderer, SDL_Window* window);
-    
+    Snake(float x, float y);
+    void handleInput(SDL_Keycode key);
+    void render(SDL_Renderer* renderer) const;
 
 private:
+    void moveUp();
+    void moveDown();
+    void moveLeft();
+    void moveRight();
 
-
+    SDL_FRect rect;
 };
 
 #endif // SNAKE_H
